@@ -1,0 +1,87 @@
+Scripts - JavaScript
+
+---------------------
+Scripts iniciais
+
+window.alert('texto do alerta')
+window.confirm('confirmar alguma ação')
+window.promt('abre uma caixa de dialogo')
+---------------------
+
+---------------------
+Identificadores (nome das variaveis)
+
+-Podem começar com letra, $ ou _
+-Não podem começar com números
+-É possível usar letras ou números
+-É possível usar acentos e símbolos
+-Não podem conter espaços
+-Não podem ser palavras reservadas
+
+Dicas
+-Maiúsculas e minúsculas fazem diferença
+-Tente escolher nomes coerentes para variáveis
+-Evite se tornar um 'programador alfabeto' ou um
+'programador contador'
+---------------------
+
+---------------------
+Data Types (Tipos de dados)
+typeof (tipo de...)
+
+number (números)
+string (cadeia de caracteres)
+boolean
+null (nulo)
+undefined (indefinido)
+object (objeto)
+function (função)
+---------------------
+
+---------------------
+Tratamento de dados
+
+Tratamento de dados usando o script prompt
+var nome = window.prompt('Qual o seu nome?')
+window.alert('É um grande prazer em te conhecer, ' + nome)
+
+Adiação de valores
+(number + number)
+
+Conversão de String para Número
+Number.parseInt(n) (scprit para converter string em número inteiro)
+Number.parseFloat(n) (script para converter string em número real)
+Number(n) é a forma mais atual e simplificada que trata número inteiro e real
+
+Conversão de Número para String
+
+String(n)
+n.toString()
+
+Formatando String
+Template String
+
+`Eu estou aprendendo ${s}` (para os template string se crases e
+não aspas normais ('') ou aspas duplas (""))
+
+Exemplo: `O aluno ${nome} com ${idade} anos tirou ${nota}`
+
+Outros tipos de String
+
+.length (quantidade de caracteres a string tem)
+.toUpperCase() (tudo para 'Maiúsculo')
+.toLowerCase() (tudo para 'minúsculo')
+
+Formantando Números
+.toFixed() (para ter mais de uma casas decimais)
+.toFixed().replace('.', ',') (para mudar o separador decimal)
+.toLocateString('pt-BR', {style: 'currency', currency: 'BRL'}) (transformar um valor númerico em Real Brasileiro)
+.toLocateString('pt-BR', {style: 'currency', currency: 'USD'}) (transformar um valor númerico em Dólar)
+.toLocateString('pt-BR', {style: 'currency', currency: 'EUR'}) (transformar um valor númerico em Euro)
+
+---------------------
+Glossario
+
+= - significa recebe
+null - significa nulo
++ - concatenação

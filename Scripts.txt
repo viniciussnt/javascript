@@ -61,8 +61,8 @@ n.toString()
 Formatando String
 Template String
 
-`Eu estou aprendendo ${s}` (para os template string se crases e
-não aspas normais ('') ou aspas duplas (""))
+`Eu estou aprendendo ${s}` (para os template string se usa crases 
+e não aspas normais ('') ou aspas duplas (""))
 
 Exemplo: `O aluno ${nome} com ${idade} anos tirou ${nota}`
 

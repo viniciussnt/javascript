@@ -1,0 +1,54 @@
+Tipos de operadores
+
+Aritméticos
+Atribuição
+Relacionais
+Lógicos
+Ternário
+
+Operadores Aritméticos
+
++, -, *, /, %, ** (operadores binários são o
+peradores que precisam de dois operandos)
+
++ adição
+- subtração
+* multiplicação
+/ divisão de números reais
+% resto da divisão inteira
+** potênciação
+---------------------------------------------
+---------------------------------------------
+Ordem de precedência ATENÇÃO!!!!!!!!!!!!
+
+1° Parenteses ()
+2° Potência **
+3° Multiplicação, Divisão, Potenciação *, /, %
+4° Soma e Subtração + e -
+---------------------------------------------
+---------------------------------------------
+Auto-atribuições
+
+var n = 3
+n = n + 4
+n = n - 5
+n = n * 4
+n = n / 2
+n = n ** 2
+n = n % 5
+
+Simplificando auto-atribuições
+
+n += 4
+n -= 5
+n *= 4
+n /= 2
+n **= 2
+n %= 5
+---------------------------------------------
+---------------------------------------------
+Incremento
+
+var x = 5
+x = x + 1 ----> x++
+x = x - 1 ----> x--

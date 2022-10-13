@@ -5,7 +5,8 @@ Atribuição
 Relacionais
 Lógicos
 Ternário
-
+---------------------------------------------
+---------------------------------------------
 Operadores Aritméticos
 
 +, -, *, /, %, ** (operadores binários são o
@@ -52,3 +53,54 @@ Incremento
 var x = 5
 x = x + 1 ----> x++
 x = x - 1 ----> x--
+---------------------------------------------
+---------------------------------------------
+Operadores relacionais
+
+> - maior que
+< - menor que
+>= - maior ou igual
+<= - menor ou igual
+== - igualdade
+!= - não igual/diferente
+
+NOTA: Se hover operadores aritmeticos e operadores relacionais
+primeiro se resolve os aritmeticos e depois os relacionais
+
+Operadores relacionais de identidade
+
+5 == 5 > true
+5 == '5' > true (o sinal de igual dade não testa o tipo e sim a grandeza)
+5 === '5' > false (sinal de igualdade restrita, identêmtico)
+---------------------------------------------
+---------------------------------------------
+Operadores Lógicos
+
+! > negação, não
+&& > conjução (e)
+|| > disjunção (ou)
+
+! true vira false e false vira true
+
+true && true > true
+true && false > false
+false && true > false
+false && false > false
+
+true || true > true
+true || false > true
+false || true > true
+false || false > false
+
+NOTA: Se houver operadores aritmeticos, relacionais e lógicos primeiro é
+resolvido os aritmeticos, depois os relacionais e por fim os lógicos
+NOTA²: Se ouver negação, conjução e disjunção a ordem para a resolução é
+primeiro a negação, depois conjução e por fim a disjunção
+---------------------------------------------
+---------------------------------------------
+Operadores Ternário
+
+condição ? expressão1 : expressão2
+
+condição > true ou false
+expressão1, expressão2 > expressões com valores de qualquer tipo

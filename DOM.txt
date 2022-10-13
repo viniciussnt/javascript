@@ -1,0 +1,66 @@
+O que é DOM?
+
+É um acronimo para Document Object Model (Modelo de objetos para documentos).
+----------------------------
+----------------------------
+Árvore DOM
+
+window --> location, document, history
+document --> html --> head e body
+head --> meta, title
+body --> h1, p1, p1, div
+p2 --> strong
+----------------------------
+----------------------------
+Selecionando elementos DOM
+
+por Marca
+--getElementByTagName()
+por ID
+--getElementById()
+por Nome
+--getElementsByName()
+por Classe
+--getElementsByClassName()
+por Seletor
+--querySelector()
+--querySelectorAll()
+
+NOTA: Em CSS o ID é representado por uma hashtag (#) e a Class é por um ponto (.)
+----------------------------
+----------------------------
+Eventos DOM
+
+Evemtos de mouse
+mouseenter - mouse entrou na DIV
+mousemove - mouse se moveu dentro da DIV
+mousedown - segurar o clique por um tempo
+mouseup - soltar o clique depois de ter segurado por um tempo
+click - clicar rapidamente
+mouseout - mouse saiu da div
+----------------------------
+----------------------------
+Funções
+
+O que é?
+
+É um cojunto de códigos que vão ser executados somente quando o evento ocorrer
+
+Exemplo:
+function ação(parametros) {
+bloco
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

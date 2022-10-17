@@ -1,0 +1,21 @@
+Condições
+
+if (condição) {
+	true
+} else {
+	false
+}
+
+----------------------
+----------------------
+Tipos de Condição
+
+if (condição) {
+	true		- condição simples
+}
+
+if (condição) {
+	true
+} else {
+	false		condição 
+}

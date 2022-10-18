@@ -6,16 +6,48 @@ if (condição) {
 	false
 }
 
-----------------------
-----------------------
+------------------------
+------------------------
 Tipos de Condição
 
 if (condição) {
-	true		- condição simples
+	true			- condição simples
 }
 
 if (condição) {
 	true
 } else {
-	false		condição 
+	false			- condição composta
 }
+
+if (cond1) {
+	bloco1
+} else {
+	if (cond2) {
+		bloco2	- condição aninhada
+	} else {
+		bloco3
+	}
+}
+
+Condição Múltipla
+
+NOTA: o break é obrigatório quando usar o switch
+
+switch(expressão){
+	case valor 1:
+		bloco
+		break
+	case valor 2:
+		bloco
+		break
+	case valor 3:
+		bloco
+		break
+	default:
+		bloco
+		break
+}
+
+------------------------
+------------------------

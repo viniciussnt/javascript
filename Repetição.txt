@@ -1,0 +1,42 @@
+Repetição com teste lógico no inicio
+
+Conceito:
+while(condição){
+	bloco		- se a condição for verdadeira o bloco vai ser executado novamente
+			pelo while. E se for falso o fluxo sairá da repetição
+}
+
+Exemplo:
+
+function comerPizza(){
+	while(temFatia()){
+		comerFatia()
+	}
+}
+-----------------------------
+-----------------------------
+Repetição com teste lógico no fim
+
+Conceito:
+do{
+	bloco
+}while(condição){
+
+}
+-----------------------------
+-----------------------------
+Repetição com variavél de controle
+
+Conceito:
+for(inicio; teste; incr){
+	bloco				- faz a inicialização e logo em seguida o teste e se
+					esse for verdadeiro, o bloco será executado e voltará
+					para o form e irá adicionar o incremento. E se for
+					negativo irá seguir caminho
+}
+
+Exemplo:
+
+for (var c=1; c<=10; c++){
+	bloco
+}

@@ -1,0 +1,12 @@
+Variáveis simples: são variáveis que só conseguem armazenar um valor por vez.
+
+Variáveis compostas: são variáveis que são capazes de armazenar vários valores
+em uma mesa estrutura.
+
+---------------------------------------------
+
+Um array/vetor é uma variável que tem varios elementos. Cada elemento é composto por
+seu valor/conteúdo e por uma chave de identificação
+
+---------------------------------------------
+let num = [5,8,4]

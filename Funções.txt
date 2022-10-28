@@ -1,0 +1,28 @@
+Função
+
+Toda função tem os seguintes fatores: uma chamada, um conjunto dos parâmetros, uma ação
+e um retorno.
+
+Funções são ações executadas assim que são chamadas ou em decorrência de algum evento.
+
+Uma função pode receber parâmetros e retornar um resultado
+
+-----------------------------------
+-----------------------------------
+		    --> parâmetro
+                |
+function ação(param){
+	bloco --> ação
+	return res --> retorno
+}
+
+ação(5) --> chamada
+
+function parimp(n){
+	if (n%2 == 0{
+		return 'par'
+	}else{
+		return 'ímpar'
+	}
+}
+let res = parimp(11)
